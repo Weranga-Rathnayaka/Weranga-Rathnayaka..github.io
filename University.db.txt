@@ -1,0 +1,54 @@
+/*====================================
+  NIBM - DSE Web CW Project DATABASE
+
+Our Team :
+1.) S.B.C.Sanjaya 	MA-DSE-202-F-002
+2.) L.G.K.Nilakshi 	MA-DSE-202-F-011
+3.) L.Y.L.Sandeepani 	MA-DSE-202-F-012
+4.) W.M.Rathnayaka 	MA-DSE-202-F-028
+5.) K.K.I.Uthpala 	MA-DSE-202-F-038
+====================================*/
+
+
+
+To get Contact, Registration, Subscribe and Login details of the University, you should click the Login button and,
+Enter,  Username = admin
+	Password = pass
+
+
+And you should create these 3 tables and database.(We used - MYSQL : WAMPP SERVER)
+
+/*==================================*/
+CREATE DATABASE University;
+USE University;
+
+
+
+/*====================================
+        SUBSCRIBE TABLE
+====================================*/
+CREATE TABLE subscribe(
+email	VARCHAR(50)	PRIMARY KEY
+);
+
+
+/*====================================
+        REGISTRATION TABLE
+====================================*/
+CREATE TABLE registration(
+name	VARCHAR(50),
+email	VARCHAR(50)	PRIMARY KEY,
+phone	VARCHAR(10)
+);
+
+
+/*====================================
+        CONTACT TABLE
+====================================*/
+CREATE TABLE contact(
+name	VARCHAR(50),
+id	VARCHAR(13)	PRIMARY KEY,
+email	VARCHAR(50),
+message	VARCHAR(1000)
+);
+

@@ -1,0 +1,1129 @@
+NIBM WEB DEVELOPMENT COURSE WORK 2 PROJECT
+==========================================
+	Our Team :
+		1.) S.B.C.Sanjaya 	    MA-DSE-202-F-002    -   header, courses, widget , registration, login
+		2.) L.G.K.Nilakshi 	    MA-DSE-202-F-011    -   slider, registration, testimonial, blog, counter
+		3.) L.Y.L.Sandeepani 	MA-DSE-202-F-012    -   promo, registration, counter, sponcer privacy
+		4.) W.M.Rathnayaka 	    MA-DSE-202-F-028    -   about, courses, registration, footer, terms
+		5.) K.K.I.Uthpala 	    MA-DSE-202-F-038    -   registration, event, testimonial, blog, counter
+
+
+
+
+
+Those who support to do the project
+/*=================================
+	A. HTML Structure
+==================================/
+		1.) S.B.C.Sanjaya 	MA-DSE-202-F-002
+		2.) L.G.K.Nilakshi 	MA-DSE-202-F-011
+		3.) L.Y.L.Sandeepani 	MA-DSE-202-F-012
+		4.) W.M.Rathnayaka 	MA-DSE-202-F-028
+		5.) K.K.I.Uthpala 	MA-DSE-202-F-038
+
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="WowThemez">
+        
+        <title>EDUmax || Educational Platform </title>
+         
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+ 
+        <!-- Font Awesome Icons CSS -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <!-- Themify Icons CSS -->
+        <link rel="stylesheet" href="css/themify-icons.css">
+        <!-- Elegant Font Icons CSS -->
+        <link rel="stylesheet" href="css/elegant-font-icons.css">
+        <!-- Elegant Line Icons CSS -->
+        <link rel="stylesheet" href="css/elegant-line-icons.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Venobox CSS -->
+        <link rel="stylesheet" href="css/venobox/venobox.css">
+        <!-- OWL-Carousel CSS -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <!-- Slick Nav CSS -->
+        <link rel="stylesheet" href="css/slicknav.min.css">
+        <!-- Css Animation CSS -->
+        <link rel="stylesheet" href="css/css-animation.min.css">
+        <!-- Nivo Slider CSS -->
+        <link rel="stylesheet" href="css/nivo-slider.css">
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="css/main.css">
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="css/responsive.css">
+ 
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <div class="site-preloader-wrap">
+            <div class="spinner"></div>
+        </div><!-- Preloader -->
+         
+        <header id="header" class="header-section">
+             
+        </header><!-- /Header Section -->
+         
+        <div class="header-height"></div>
+         
+        <section class="slider-section">
+             
+        </section><!-- /#slider-Section -->
+         
+        <section class="promo-section">
+            
+        </section><!-- /#Promo-Section -->
+         
+        <section class="about-section">
+            
+        </section><!-- /#About Section -->
+         
+        <section class="course-section bg-grey padding">
+             
+        </section><!-- /#Course-Section -->
+       
+        <section class="reg-section padding">
+             
+        </section><!-- Register Section -->
+        
+        <section class="event-section bg-grey padding">
+             
+        </section><!-- Event Section -->
+         
+        <section id="counter" class="counter-section">
+             
+        </section><!-- Counter Section -->
+         
+        <section class="testimonial-section padding">
+             
+        </section><!-- Testimonial Section -->
+         
+        <section class="video-cta">
+           
+        </section><!-- Video Section -->
+         
+        <section class="blog-section bg-grey padding">
+             
+        </section><!-- Blog Section -->
+         
+        <div class="sponsor-section bd-bottom">
+             
+        </div><!-- ./Sponsor Section -->
+         
+        <section class="widget-section padding">
+             
+        </section><!-- ./Widget Section -->
+         
+        <footer class="footer-section">
+             
+        </footer><!-- /Footer Section -->
+         
+        <a data-scroll href="#header" id="scroll-to-top"><i class="arrow_up"></i></a>
+     
+        <!-- jQuery Lib -->
+        <script src="js/vendor/jquery-1.12.4.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <!-- Tether JS -->
+        <script src="js/vendor/tether.min.js"></script>
+        <!-- Imagesloaded JS -->
+        <script src="js/vendor/imagesloaded.pkgd.min.js"></script>
+        <!-- OWL-Carousel JS -->
+        <script src="js/vendor/owl.carousel.min.js"></script>
+        <!-- isotope JS -->
+        <script src="js/vendor/jquery.isotope.v3.0.2.js"></script>
+        <!-- Smooth Scroll JS -->
+        <script src="js/vendor/smooth-scroll.min.js"></script>
+        <!-- venobox JS -->
+        <script src="js/vendor/venobox.min.js"></script>
+        <!-- ajaxchimp JS -->
+        <script src="js/vendor/jquery.ajaxchimp.min.js"></script>
+        <!-- Counterup JS -->
+        <script src="js/vendor/jquery.counterup.min.js"></script>
+        <!-- waypoints js -->
+        <script src="js/vendor/jquery.waypoints.v2.0.3.min.js"></script>
+        <!-- Slick Nav JS -->
+        <script src="js/vendor/jquery.slicknav.min.js"></script>
+        <!-- Nivo Slider JS -->
+        <script src="js/vendor/jquery.nivo.slider.pack.js"></script>
+        <!-- YTPlayer JS -->
+        <script src="js/vendor/jquery.mb.YTPlayer.min.js"></script>
+        <!-- Wow JS -->
+        <script src="js/vendor/wow.min.js"></script>
+        <!-- Contact JS -->
+        <script src="js/contact.js"></script>
+        <!-- Main JS -->
+        <script src="js/main.js"></script>
+ 
+    </body>
+</html>
+
+
+
+
+
+/*=================================
+	B. Website Components
+1) Header Section
+==================================/
+		/* S.B.C.Sanjaya 	MA-DSE-202-F-002 /*
+
+<header id="header" class="header-section">
+        <div class="top-header">
+            <div class="container">
+                <div class="top-content-wrap row">
+                    <div class="col-md-8">
+                        <ul class="left-info">
+                            <li><a href="mailto:info@edumax.com?subject=Inquiry&body=Can someone assist me?"><i class="ti-email"></i>Info@edumax.com</a></li>
+                            <li><a href="tel:+(94) 76 822 85 44″>Call the EDUmax now! +(94) 76 822 85 44"><i class="ti-mobile"></i>+(94) 76 822 85 44</a></li>
+                            <li>Have any question?</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 d-none d-md-block">
+                        <ul class="right-info">
+                            <li><a href="#form-registration">Register</a></li>
+                            <li><a href="../html/login.html">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-header">
+            <div class="container">
+                <div class="bottom-content-wrap row">
+                    <div class="col-md-3">
+                        <div class="site-branding">
+                            <a href="index.html"><img src="img/logo.png" alt="Brand"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-9 d-none d-md-block text-right">
+                        <ul id="mainmenu" class="nav navbar-nav nav-menu">
+                            <li class="active"> <a href="index.html">Home</a>
+                                <ul>
+                                    <li><a href="index.html">Home Default</a></li>
+                                    <li><a href="index-2.html">Home Modern</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="courses.html">Courses</a></li>
+                            <li><a href="events.html">Events</a></li>
+                            <li><a href="#">Pages</a>
+                                <ul>
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="team.html">Team</a></li>
+                                    <li><a href="404.html">404 Not Found</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="blog-grid.html">Blog</a></li>
+                            <li> <a href="contact.html">Contact</a></li>
+                        </ul>
+                        <a href="../html/index.html" class="default-btn">Register Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- /Header Section -->
+
+
+
+
+/*=================================
+	B. Website Components
+2) Slider Section
+==================================/
+		/* L.G.K.Nilakshi 	MA-DSE-202-F-011 */
+
+    <section class="slider-section">
+        <div class="slider-wrapper">
+            <div id="main-slider" class="nivoSlider">
+                <img src="img/slider-1.jpg" alt="" title="#slider-caption-1" />
+                <img src="img/slider-2.jpg" alt="" title="#slider-caption-2" />
+                <img src="img/slider-3.jpg" alt="" title="#slider-caption-3" />
+            </div>
+            <!-- /#main-slider -->
+
+            <div id="slider-caption-1" class="nivo-html-caption slider-caption">
+                <div class="display-table">
+                    <div class="table-cell">
+                        <div class="container">
+                            <div class="slider-text">
+                                <h5 class="wow cssanimation fadeInBottom">Join Us Today</h5>
+                                <h1 class="wow cssanimation fadeInTop" data-wow-delay="1s" data-wow-duration="800ms">Better Education for World.</h1>
+                                <p class="wow cssanimation fadeInBottom" data-wow-delay="1s">Help today because tomorrow you may be the one who needs helping! <br>Forget what you can get and see what you can give.</p>
+                                <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Join With Us</a>
+                                <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Our Classes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /#slider-caption-1 -->
+            <div id="slider-caption-2" class="nivo-html-caption slider-caption">
+                <div class="display-table">
+                    <div class="table-cell">
+                        <div class="container">
+                            <div class="slider-text">
+                                <h5 class="wow cssanimation fadeInBottom">Join Us Today</h5>
+                                <h1 class="wow cssanimation fadeInTop" data-wow-delay="1s" data-wow-duration="800ms">Better Education for World.</h1>
+                                <p class="wow cssanimation fadeInBottom" data-wow-delay="1s">Help today because tomorrow you may be the one who needs helping! <br>Forget what you can get and see what you can give.</p>
+                                <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Join With Us</a>
+                                <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Our Classes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /#slider-caption-2 -->
+            <div id="slider-caption-3" class="nivo-html-caption slider-caption">
+                <div class="display-table">
+                    <div class="table-cell">
+                        <div class="container">
+                            <div class="slider-text">
+                                <h5 class="wow cssanimation fadeInBottom">Join Us Today</h5>
+                                <h1 class="wow cssanimation fadeInTop" data-wow-delay="1s" data-wow-duration="800ms">Better Education for World.</h1>
+                                <p class="wow cssanimation fadeInBottom" data-wow-delay="1s">Help today because tomorrow you may be the one who needs helping! <br>Forget what you can get and see what you can give.</p>
+                                <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Join With Us</a>
+                                <a href="#" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s">Our Classes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /#slider-caption-3 -->
+        </div>
+    </section>
+    <!-- /#slider-Section -->
+
+
+
+
+/*=================================
+	B. Website Components
+3) Promo Section
+==================================/
+		/* L.Y.L.Sandeepani 	MA-DSE-202-F-012 */
+
+<section class="promo-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="row promo-wrap">
+                        <div class="col-md-4">
+                            <div class="promo-content">
+                                <div class="promo-thumb">
+                                    <img src="img/icon-1.png" alt="icon">
+                                </div>
+                                <div class="promo-text">
+                                    <h3>Apply Online</h3>
+                                    <p>The applications failing to adhere to the instructions will be rejected without notification.
+                                    </p>
+                                    <a href="#" class="read-more">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /#promo-1 -->
+                        <div class="col-md-4">
+                            <div class="promo-content">
+                                <div class="promo-thumb">
+                                    <img src="img/icon-2.png" alt="icon">
+                                </div>
+                                <div class="promo-text">
+                                    <h3>Prospects</h3>
+                                    <p>Prospects for graduate jobs, postgraduate study, advice about work experience, internship opportunities.</p>
+                                    <a href="#" class="read-more">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /#promo-1 -->
+                        <div class="col-md-4">
+                            <div class="promo-content">
+                                <div class="promo-thumb">
+                                    <img src="img/icon-3.png" alt="icon">
+                                </div>
+                                <div class="promo-text">
+                                    <h3>Certification</h3>
+                                    <p>Formal attestation or confirmation of certain characteristics of an object, person, or organization.</p>
+                                    <a href="#" class="read-more">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /#promo-1 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /#Promo-Section -->
+
+
+
+
+/*=================================
+	B. Website Components
+4) About Section
+==================================/
+		/* W.M.Rathnayaka 	MA-DSE-202-F-028 */
+
+    <section class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 xs-padding">
+                    <div class="about-content">
+                        <h2>Welcome to EDUmax</h2>
+                        <p> EDUmax is the premier Business School in Sri Lanka. We keep abreast of global trends and constantly upgrade our products to suit today’s needs. Over the years we have developed our identity while proving to be a leader in management
+                            training and education. We have empowered thousands to carve better futures for themselves.</p>
+                        <ul class="about-list">
+                            <li>We are creative.</li>
+                            <li>Provide best education services.</li>
+                            <li>We are always improving.</li>
+                        </ul>
+                        <a href="#" class="default-btn">Our Courses</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="about-bg"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /#About Section -->
+
+
+
+
+
+/*=================================
+	B. Website Components
+5) Courses Section
+==================================/
+		/*1.) S.B.C.Sanjaya 	MA-DSE-202-F-002
+		2.) W.M.Rathnayaka 	MA-DSE-202-F-028*/
+
+<section class="course-section bg-grey padding">
+        <div class="container">
+            <div class="section-heading mb-40 text-center">
+                <h2>Populer Courses</h2>
+                <p>Development of Managers and Supervisory staff of industrial and commercial undertakings both in the public and private sectors.</p>
+            </div>
+            <div id="course-carousel" class="course-carousel owl-carousel">
+                <div class="course-item">
+                    <div class="course-thumb">
+                        <img src="img/course-1.jpg" alt="course">
+                        <a class="enroll-btn" href="../html/courses.html">Book Now <i class="fa fa-plus"></i></a>
+                        <div class="thumb-details">
+                            <img src="img/team-1.jpg" alt="img">
+                            <div class="thumb-content">
+                                <h4>Nadeeshani Gunasekara</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-details">
+                        <h3><a href="#">Basic Wordpress Development</a></h3>
+                        <p>We have prepared a list of essential WordPress plugins for all types of ... training courses in different WordPress development areas.</p>
+                        <div class="course-footer">
+                            <span><i class="fa fa-group"></i>763</span>
+                            <span><i class="fa fa-heart"></i>205</span>
+                            <span class="price">LKR 23,000</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- /#item-1 -->
+                <div class="course-item">
+                    <div class="course-thumb">
+                        <img src="img/course-2.jpg" alt="course">
+                        <a class="enroll-btn" href="#">Book Now <i class="fa fa-plus"></i></a>
+                        <div class="thumb-details">
+                            <img src="img/team-2.jpg" alt="img">
+                            <div class="thumb-content">
+                                <h4>Kesan Narangoda</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-details">
+                        <h3><a href="#">Mastering Php Language</a></h3>
+                        <p>PHP filters are used to validate and sanitize external input. Introduction to SQL HAVING clause. JavaScript is the programming language of the Web.
+                        </p>
+                        <div class="course-footer">
+                            <span><i class="fa fa-group"></i>763</span>
+                            <span><i class="fa fa-heart"></i>205</span>
+                            <span class="price">LKR 32,500</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- /#item-2 -->
+                <div class="course-item">
+                    <div class="course-thumb">
+                        <img src="img/course-3.jpg" alt="course">
+                        <a class="enroll-btn" href="#">Book Now <i class="fa fa-plus"></i></a>
+                        <div class="thumb-details">
+                            <img src="img/team-3.jpg" alt="img">
+                            <div class="thumb-content">
+                                <h4>Dinithi Dissanayake</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-details">
+                        <h3><a href="#">Javascript Development</a></h3>
+                        <p>A full stack JavaScript developer is a person who can develop both client and server software. In addition to mastering HTML, PHP and CSS development. </p>
+                        <div class="course-footer">
+                            <span><i class="fa fa-group"></i>763</span>
+                            <span><i class="fa fa-heart"></i>205</span>
+                            <span class="price">LKR 30,000</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- /#item-3 -->
+                <div class="course-item">
+                    <div class="course-thumb">
+                        <img src="img/course-4.jpg" alt="course">
+                        <a class="enroll-btn" href="#">Book Now <i class="fa fa-plus"></i></a>
+                        <div class="thumb-details">
+                            <img src="img/team-4.jpg" alt="img">
+                            <div class="thumb-content">
+                                <h4>Chami Muthugamage</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-details">
+                        <h3><a href="#">Frontend Development</a></h3>
+                        <p>Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a Web Application.</p>
+                        <div class="course-footer">
+                            <span><i class="fa fa-group"></i>763</span>
+                            <span><i class="fa fa-heart"></i>205</span>
+                            <span class="price">LKR 35,000</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- /#item-4 -->
+                <div class="course-item">
+                    <div class="course-thumb">
+                        <img src="img/course-5.jpg" alt="course">
+                        <a class="enroll-btn" href="#">Book Now <i class="fa fa-plus"></i></a>
+                        <div class="thumb-details">
+                            <img src="img/team-5.jpg" alt="img">
+                            <div class="thumb-content">
+                                <h4>Kasunka Gallage</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-details">
+                        <h3><a href="#">Psd to Html Convart</a></h3>
+                        <p>It means bringing your designs to life. PSD to HTML5 conversion is now a much broader term than it originally was. It's safe, easy to use.</p>
+                        <div class="course-footer">
+                            <span><i class="fa fa-group"></i>763</span>
+                            <span><i class="fa fa-heart"></i>205</span>
+                            <span class="price">LKR 32,000</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- /#item-5 -->
+            </div>
+        </div>
+    </section>
+    <!-- /#Course-Section -->
+
+
+
+
+
+
+/*=================================
+	B. Website Components
+6) Registration Section
+==================================/
+		1.) S.B.C.Sanjaya 	MA-DSE-202-F-002
+		2.) L.G.K.Nilakshi 	MA-DSE-202-F-011
+		3.) L.Y.L.Sandeepani 	MA-DSE-202-F-012
+		4.) W.M.Rathnayaka 	MA-DSE-202-F-028
+		5.) K.K.I.Uthpala 	MA-DSE-202-F-038
+
+<section class="reg-section padding" id="form-registration">
+        <div class="container">
+            <div class="row reg-wrap">
+                <div class="col-lg-8 text-center">
+                    <div class="reg-content">
+                        <h3 class="counter">
+                            <form action="php/registration.php" method="post"></form>0</h3>
+                        <h2>Total Registered</h2>
+                        <h3>It’s limited seating! Hurry up Register now <br>and get your free online course.</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="reg-form">
+                        <div class="form-heading">
+                            <h2>Register Now <span>Get free access to our courses</span></h2>
+                        </div>
+                        <form action="php/registration.php" method="post">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone" required>
+                            </div>
+                            <button type="submit" name="submit" class="btn btn-primary">Register Now</button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Register Section -->
+
+
+
+
+
+
+
+/*=================================
+	B. Website Components
+7) Event Section
+==================================/
+            /* K.K.I.Uthpala 	MA-DSE-202-F-038 */
+
+<section class="event-section bg-grey padding">
+        <div class="container">
+            <div class="section-heading mb-40 text-center">
+                <h2>Upcoming Events</h2>
+                <p>The next you !!!</p>
+            </div>
+            <div class="event-items">
+                <div class="row event-wrap d-flex align-items-center">
+                    <div class="col-lg-2 text-center">
+                        <div class="event-date">
+                            <h2>15 <span>January</span></h2>
+                        </div>
+                        <div class="ticket-btn">
+                            <a href="#" class="default-btn">Purchase Ticket</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="event-details">
+                            <h2><a href="#">How to start a blog site using wordpress.</a></h2>
+                            <ul class="event-time">
+                                <li><i class="fa fa-clock-o"></i>9:00 AM - 4:00 PM</li>
+                                <li><i class="fa fa-map-marker"></i>EDUmax Campus, Galle Rd, Matara</li>
+                            </ul>
+                            <p>Designed for success. Start with a modern site design and customize it with your branding, content, and features. All Premium blogs include custom CSS.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="event-thumb">
+                            <img src="img/course-1.jpg" alt="event">
+                        </div>
+                    </div>
+                </div>
+                <!-- Event-1 -->
+                <div class="row event-wrap d-flex align-items-center">
+                    <div class="col-lg-2 text-center">
+                        <div class="event-date">
+                            <h2>21 <span>January</span></h2>
+                        </div>
+                        <div class="ticket-btn">
+                            <a href="#" class="default-btn">Purchase Ticket</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="event-details">
+                            <h2><a href="#">How to create a new landing page.</a></h2>
+                            <ul class="event-time">
+                                <li><i class="fa fa-clock-o"></i>9:00 AM - 4:00 PM</li>
+                                <li><i class="fa fa-map-marker"></i>EDUmax Campus, Galle Rd, Matara</li>
+                            </ul>
+                            <p>To start, go to Landing Pages & Forms, and click Create New. Select from one of more than 50 base templates, then add your copy and images to customize it.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="event-thumb">
+                            <img src="img/course-2.jpg" alt="event">
+                        </div>
+                    </div>
+                </div>
+                <!-- Event-2 -->
+            </div>
+        </div>
+    </section>
+    <!-- Event Section -->
+
+
+
+
+
+/*=================================
+	B. Website Components
+8) Counter Section
+==================================/
+		1.) L.G.K.Nilakshi 	MA-DSE-202-F-011
+		2.) L.Y.L.Sandeepani 	MA-DSE-202-F-012
+		3.) K.K.I.Uthpala 	MA-DSE-202-F-038
+
+<section id="counter" class="counter-section">
+        <div class="container">
+            <ul class="row counters">
+                <li class="col-lg-3 col-sm-6 sm-padding">
+                    <div class="counter-content">
+                        <i class="ti-user"></i>
+                        <h3><span class="counter">15</span>Instructors</h3>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-sm-6 sm-padding">
+                    <div class="counter-content">
+                        <i class="ti-book"></i>
+                        <h3><span class="counter">45</span>Online Courses</h3>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-sm-6 sm-padding">
+                    <div class="counter-content">
+                        <i class="ti-tag"></i>
+                        <h3><span class="counter">75</span>Year of History</h3>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-sm-6 sm-padding">
+                    <div class="counter-content">
+                        <i class="ti-crown"></i>
+                        <h3><span class="counter">4950</span>Active Students</h3>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Counter Section -->
+
+
+
+
+
+
+/*=================================
+	B. Website Components
+9) Testimonial Section
+================ ==================/
+		/* 1.) L.G.K.Nilakshi 	MA-DSE-202-F-011
+		2.) K.K.I.Uthpala 	MA-DSE-202-F-038 */
+
+section class="testimonial-section padding">
+        <div class="container">
+            <div class="section-heading mb-40 text-center">
+                <h2>What People Say</h2>
+                <p>Getting caught up with the best things.</p>
+            </div>
+            <div id="testimonial-carousel" class="testimonial-carousel owl-carousel">
+                <div class="testimonial-item text-center">
+                    <img src="img/team-1.jpg" alt="profile">
+                    <h4>Nadeeshani Gunasekara<span>Google Inc.</span></h4>
+                    <p>This should be used to tell a story <br> and let your users know about your <br>product or service.</p>
+                    <ul class="rattings">
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                    </ul>
+                </div>
+                <!-- Review-1-->
+                <div class="testimonial-item text-center">
+                    <img src="img/team-2.jpg" alt="profile">
+                    <h4>Kesan Narangoda<span>Apple Inc.</span></h4>
+                    <p>This should be used to tell a story <br> and let your users know about your <br>product or service.</p>
+                    <ul class="rattings">
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                    </ul>
+                </div>
+                <!-- Review-2-->
+                <div class="testimonial-item text-center">
+                    <img src="img/team-3.jpg" alt="profile">
+                    <h4>Dinithi Dissanayake<span>Wordpress Inc.</span></h4>
+                    <p>This should be used to tell a story <br> and let your users know about your <br>product or service.</p>
+                    <ul class="rattings">
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                    </ul>
+                </div>
+                <!-- Review-3-->
+                <div class="testimonial-item text-center">
+                    <img src="img/team-4.jpg" alt="profile">
+                    <h4>Chami Muthugamage<span>Envato Inc.</span></h4>
+                    <p>This should be used to tell a story <br> and let your users know about your <br>product or service.</p>
+                    <ul class="rattings">
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                        <li><i class="fa fa-star"></i></li>
+                    </ul>
+                </div>
+                <!-- Review-4-->
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial Section -->
+
+
+
+
+
+/*=================================
+	B. Website Components
+10) Counter Section
+==================================/
+
+		/* L.Y.L.Sandeepani 	MA-DSE-202-F-012 */
+
+<section class="video-cta">
+        <div class="video-bg" data-property="{videoURL:'ziysTLL5dig',containment:'self',autoPlay:true, mute:true, startAt:0, opacity:1, showControls:false, ratio:'16/9', quality: 'hd720', showYTLogo: false }"></div>
+        <div class="video-content-wrapper">
+            <div class="container">
+                <div class="video-content text-center">
+                    <h3>Join thousand of instructors!</h3>
+                    <h2>Become an Instructor?</h2>
+                    <a href="https://www.youtube.com/watch?v=MdhobkUJuEQ" class="default-btn">Get Started Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Video Section -->
+
+
+
+
+
+/*=================================
+	B. Website Components
+11) Blog Section
+==================================/
+		/*1.) L.G.K.Nilakshi 	MA-DSE-202-F-011
+		2.) K.K.I.Uthpala 	MA-DSE-202-F-038*/
+
+<section class="blog-section bg-grey padding">
+        <div class="container">
+            <div class="section-heading mb-40 text-center">
+                <h2>Recent Stories</h2>
+                <p>Comprehensive up-to-date news coverage.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 xs-padding">
+                    <div class="blog-items grid-list row">
+                        <div class="col-md-4 padding-15">
+                            <div class="blog-post">
+                                <img src="img/post-1.jpg" alt="blog post">
+                                <div class="blog-content">
+                                    <span class="date"><i class="fa fa-clock-o"></i> January 01.2022</span>
+                                    <h3><a href="#">Crick Clash gallery post</a></h3>
+                                    <p>There's an option to automatically create a related posts gallery at the ... The plugin has direct integration with the default WordPress.</p>
+                                    <a href="#" class="post-meta">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Post 1 -->
+                        <div class="col-md-4 padding-15">
+                            <div class="blog-post">
+                                <img src="img/post-2.jpg" alt="blog post">
+                                <div class="blog-content">
+                                    <span class="date"><i class="fa fa-clock-o"></i> February 06.2022</span>
+                                    <h3><a href="#">Blog post of Christmas Party</a></h3>
+                                    <p>Explore millions of exclusive photographs, videos and illustrations that are researched and shot by a diverse global community to be inclusive.</p>
+                                    <a href="#" class="post-meta">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Post 2 -->
+                        <div class="col-md-4 padding-15">
+                            <div class="blog-post">
+                                <img src="img/post-3.jpg" alt="blog post">
+                                <div class="blog-content">
+                                    <span class="date"><i class="fa fa-clock-o"></i> April 15.2021</span>
+                                    <h3><a href="#">Awurudu gallery post</a></h3>
+                                    <p>Indicator network accessibility respect peaceful hack. Climate change, cooperation, billionaire philanthropy, humanitarian relief donate research.</p>
+                                    <a href="#" class="post-meta">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Post 3 -->
+                    </div>
+                </div>
+                <!-- Blog Posts -->
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section -->
+
+
+
+
+
+
+/*=================================
+	B. Website Components
+12) Sponcer Section
+==================================/
+		/* L.Y.L.Sandeepani 	MA-DSE-202-F-012 */
+
+<div class="sponsor-section bd-bottom">
+        <div class="container">
+            <ul id="sponsor-carousel" class="sponsor-items owl-carousel">
+                <li class="sponsor-item">
+                    <img src="img/sponsor-1.png" alt="sponsor-image">
+                </li>
+                <li class="sponsor-item">
+                    <img src="img/sponsor-2.jpg" alt="sponsor-image">
+                </li>
+                <li class="sponsor-item">
+                    <img src="img/sponsor-3.jpg" alt="sponsor-image">
+                </li>
+                <li class="sponsor-item">
+                    <img src="img/sponsor-4.jpg" alt="sponsor-image">
+                </li>
+                <li class="sponsor-item">
+                    <img src="img/sponsor-5.jpg" alt="sponsor-image">
+                </li>
+                <li class="sponsor-item">
+                    <img src="img/sponsor-6.jpg" alt="sponsor-image">
+                </li>
+                <li class="sponsor-item">
+                    <img src="img/sponsor-7.jpg" alt="sponsor-image">
+                </li>
+                <li class="sponsor-item">
+                    <img src="img/sponsor-8.jpg" alt="sponsor-image">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- ./Sponsor Section -->
+
+
+
+
+/*=================================
+	B. Website Components
+13) Widget Section
+==================================/
+		/* S.B.C.Sanjaya 	MA-DSE-202-F-002 */
+
+<section class="widget-section padding">
+        <div class="container">
+            <div class="widget-wrap row">
+                <div class="col-md-3 xs-padding">
+                    <div class="widget-content">
+                        <img src="img/logo-light.png" alt="logo">
+                        <p>We are Education, create your passion and inspiration. And hope success will come for your dream. Please send email and get latest news.</p>
+                        <ul class="social-icon">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 xs-padding">
+                    <div class="widget-content">
+                        <h3>Navigation</h3>
+                        <ul class="widget-link">
+                            <li><a href="../html/about.html">About Us</a></li>
+                            <li><a href="../html/courses.html">Populer Courses</a></li>
+                            <li><a href="../html/team.html">Instructors</a></li>
+                            <li><a href="../html/contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 xs-padding">
+                    <div class="widget-content">
+                        <h3>Populer Courses</h3>
+                        <ul class="widget-link">
+                            <li><a href="../html/courses.html">Wordpress Development</a></li>
+                            <li><a href="../html/courses.html">Javascript</a></li>
+                            <li><a href="../html/courses.html">Basic Photoshop</a></li>
+                            <li><a href="../html/courses.html">Mastaring Php</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 xs-padding">
+                    <div class="widget-content">
+                        <h3>Usefull Links</h3>
+                        <ul class="widget-link">
+                            <li><a href="../html/privacy.html">Privacy</a></li>
+                            <li><a href="../html/contact.html">Forums</a></li>
+                            <li><a href="#">Language</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="reg-form">
+                    <form action="../html/php/subscribe.php" method="post" target="_self">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email...." required>
+                        </div>
+                        <input type="submit" name="submit" value="Subscribe" id="submit" class="btn btn-primary">
+                        <input type="submit" name="un-submit" value="Unsubscribe" id="submit" class="btn btn-primary">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ./Widget Section -->
+
+
+
+
+/*=================================
+	B. Website Components
+14) Footer Section
+==================================/
+            /* W.M.Rathnayaka 	MA-DSE-202-F-028 */
+
+<footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 sm-padding">
+                    <div class="copyright">&copy; 2022 EDUmax</div>
+                </div>
+                <div class="col-md-6 sm-padding">
+                    <ul class="footer-social">
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="mailto:info@edumax.com?subject=Problem&body=I have a problem. Can someone assist me?">Report Problem</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer Section -->
+
+    <html>
+
+
+
+
+
+
+/*=================================
+	B. Website Components
+15) Login Section
+==================================/
+		/* S.B.C.Sanjaya 	MA-DSE-202-F-002 */
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../html/css/CommonStyle.css" type="text/css" />
+    <link rel="stylesheet" href="../html/css/LoginStyle.css" type="text/css" />
+
+    <!-- Font Awesome Icons CSS -->
+    <link rel="stylesheet" href="../html/css/font-awesome.min.css">
+
+    <!-- google fonts -->
+    <link href="//fonts.googleapis.com/css?family=Mukta:300,400,500" rel="stylesheet" />
+    <title>Profile Login</title>
+
+</head>
+
+<body>
+    <section class="main">
+        <div class="bottom-grid">
+            <div class="logo">
+                <h1><a href="../html/index.html"> Profile Signin Form</a></h1>
+            </div>
+        </div>
+        <div class="content-w3ls">
+            <div class="text-center icon">
+                <span class="fa fa-meetup"></span>
+            </div>
+
+            <div class="content-bottom">
+                <form action="../html/login.php" method="post">
+                    <div class="field-group">
+                        <span class="fa fa-user" aria-hidden="true"></span>
+                        <div class="wthree-field">
+                            <input name="username" id="un" type="text" value="" placeholder="Username" required>
+                        </div>
+                    </div>
+                    <div class="field-group">
+                        <span class="fa fa-lock" aria-hidden="true"></span>
+                        <div class="wthree-field">
+                            <input name="password" id="pwd" type="Password" placeholder="Password">
+                        </div>
+                    </div>
+                    <div class="wthree-field">
+                        <button type="submit" class="btn">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                &copy; 2022 All rights reserved | Design by
+                <a href="http://127.0.0.1/EDUmax-education-website-/html/about.html#team">Administration NIBM | WEB</a>
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>
+
+
+
+
+
+
+/*=================================
+	C. CSS Files and Structure
+==================================/
+
+These are the css files:
+
+bootstrap.min.css
+animate.min.css
+elegant-font-icons.css
+elegant-line-icons.css
+owl.carousel.css
+main.css
+responsive.css
+
+
+/*=================================
+	D. JavaScript 
+==================================/
+
+This theme use these Javascript files:
+
+bootstrap.min.js
+smooth-scroll.min.js
+owl.carousel.min.js
+jquery.ajaxchimp.min.js
+jquery-1.12.4.min.js
+jquery.mb.YTPlayer.min.js
+owl.carousel.min.js
+venobox.min.js
+wow.min.js
+jquery.counterup.min.js
+main.js
+
+
+/*=================================
+	E. PHP 
+==================================/
+
+This theme use these PHP files:
+
+subscribe.php
+registration.php
+contact.php
+login.php
+admin-login.php
