@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../html/css/CommonStyle.css" type="text/css" />
+    <link rel="stylesheet" href="../html/css/LoginStyle.css" type="text/css" />
+
+    <!-- Font Awesome Icons CSS -->
+    <link rel="stylesheet" href="../html/css/font-awesome.min.css">
+
+    <!-- google fonts -->
+    <link href="//fonts.googleapis.com/css?family=Mukta:300,400,500" rel="stylesheet" />
+    <title>Admin Login</title>
+
+</head>
+
+<body>
+    <section class="main">
+        <div class="bottom-grid">
+            <div class="logo">
+                <h1><a href="../html/login.html"> Login Form</a></h1>
+                <h1>Only Administrators can LOGIN</h1>
+            </div>
+        </div>
+        <div class="content-w3ls">
+            <div class="text-center icon">
+                <span class="fa fa-meetup"></span>
+            </div>
+
+            <div class="content-bottom">
+                <form action="../html/login.php" method="post">
+                    <div class="field-group">
+                        <span class="fa fa-user" aria-hidden="true"></span>
+                        <div class="wthree-field">
+                            <input name="username" id="un" type="text" value="" placeholder="Username" required>
+                        </div>
+                    </div>
+                    <div class="field-group">
+                        <span class="fa fa-lock" aria-hidden="true"></span>
+                        <div class="wthree-field">
+                            <input name="password" id="pwd" type="Password" placeholder="Password">
+                        </div>
+                    </div>
+                    <div class="wthree-field">
+                        <button type="submit" class="btn">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><label><a href="../html/index.html">HOME</a></label><br><br> &copy; 2022 All rights reserved | Design by
+                <a href="http://127.0.0.1/EDUmax-education-website-/html/about.html#team">Administration NIBM | WEB</a>
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>
